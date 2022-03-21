@@ -14,14 +14,19 @@ You will have an orthogonal triangle input from a file and you need to find the 
 
 According to above rules the maximum sum of the numbers from top to bottom in below example is 24.
 
-      *1
+											      *1
 
-     *8 4
+											     *8 4
 
-    2 *6 9
+											    2 *6 9
 
-   8 5 *9 3
+											   8 5 *9 3
 
 As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1>8>6>9, 1>4>6>9, 1>4>9>9
 
-1 + 8 + 6 + 9 = 24.  As you see 1, 8, 6, 9 are all NOT PRIME NUMBERS and walking over these yields the maximum sum.
+1 + 8 + 6 + 9 = 24.  As you see 1, 8, 6, 9 are all NOT PRIME NUMBERS and walking over these yields the maximum sum.
+
+## Approaches
+- #### Recursive Approach
+- #### Greedy Approach
+Recursive approach is more expensive but result is certain. Greedy algorithms may be mistaken.
